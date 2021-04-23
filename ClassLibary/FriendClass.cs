@@ -1,5 +1,6 @@
 ﻿using System;
 
+[assembly: System.Runtime.CompilerServices.InternalsVisibleToAttribute("ConsoleApp1")]
 namespace FriendAssembly
 {
     internal class FriendlyClass
