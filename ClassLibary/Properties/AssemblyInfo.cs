@@ -21,6 +21,7 @@ using System.Runtime.InteropServices;
 
 // 下列 GUID 為專案公開 (Expose) 至 COM 時所要使用的 typelib ID
 [assembly: Guid("55aec3cf-8c27-4f55-9bc9-49a1671a927e")]
+[assembly: InternalsVisibleTo("ConsoleApp1")]
 // 組件的版本資訊由下列四個值所組成: 
 //
 //      主要版本
